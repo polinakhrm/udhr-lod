@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Universal Declaration of Human Rights</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>United Nations</publisher>
+        <date>1948-12-10</date>
+        <availability>
+        <p> Open Access </p>
+        <licence target="https://creativecommons.org/publicdomain/zero/1.0/"> CC0 1.0 Universal - Public Domain Dedication
+     </licence>
+      </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+         <monogr>
+          <title>The Universal Declaration of Human Rights</title> 
+          <imprint>
+          <publisher>United Nations General Assembly</publisher> 
+          <pubPlace>Paris</pubPlace>
+          <date when="1948-12-10">10 December 1948</date>
+          </imprint>
+           </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <particDesc>
+      <listOrg>
+       <org xml:id="UN" sameAs="https://www.wikidata.org/wiki/Q1065">
+          <orgName>United Nations</orgName>
+        </org>
+        <org xml:id="UNGA" sameAs="https://www.wikidata.org/wiki/Q47423">
+          <orgName>The General Assembly</orgName>
+        </org>
+        <org xml:id="MS" sameAs="https://www.wikidata.org/wiki/Q160016">
+          <orgName type="full">Member States</orgName>
+          <orgName type="short">States</orgName>
+        </org>
+      </listOrg>
+     </particDesc>
+     <textClass>
+       <keywords scheme="Concepts">
+         <term xml:id="UNCharter" corresp="https://www.un.org/en/about-us/un-charter">
+        Charter of the United Nations
+         </term>
+         <term xml:id="UDHR" corresp="https://www.un.org/en/about-us/universal-declaration-of-human-rights">
+        Universal Declaration of Human Rights
+         </term>
+       </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="preamble">
+        <head rend="bold">Preamble</head>
+        <p>Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,</p>
+        <p>Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people,</p>
+        <p>Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law,</p>
+        <p>Whereas it is essential to promote the development of friendly relations between nations,</p>
+        <p>Whereas the peoples of <orgName ref="#UN">The United Nations</orgName> have in <ref type="docTitle" target="#UNCharter">the Charter</ref> reaffirmed their faith in fundamental human rights, in the dignity and worth of the human person and in the equal rights of men and women and have determined to promote social progress and better standards of life in larger freedom,</p>
+        <p>Whereas <orgName type="full" ref="#MS">Member States</orgName> have pledged themselves to achieve, in co-operation with <orgName ref="#UN">The United Nations</orgName>, the promotion of universal respect for and observance of human rights and fundamental freedoms,</p>
+        <p>Whereas a common understanding of these rights and freedoms is of the greatest importance for the full realization of this pledge,</p>
+        <p>Now, therefore,</p>
+        <p><orgName ref="#UNGA">The General Assembly</orgName>,</p>
+        <p>Proclaims this <ref type="docTitle" target="#UDHR">Universal Declaration of Human Rights</ref> as a common standard of achievement for all peoples and all nations, to the end that every individual and every organ of society, keeping this <ref type="docTitle">Declaration</ref> constantly in mind, shall strive by teaching and education to promote respect for these rights and freedoms and by progressive measures, national and international, to secure their universal and effective recognition and observance, both among the peoples of <orgName type="full" ref="#MS">Member States</orgName> themselves and among the peoples of territories under their jurisdiction. </p>
+      </div>
+      </front>
+       <body>
+      <div type="article" n="1">
+        <head rend="bold">Article 1</head>
+        <p>All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.</p>
+      </div>
+      <div type="article" n="2">
+        <head rend="bold">Article 2</head>
+        <p>Everyone is entitled to all the rights and freedoms set forth in this <ref type="docTitle" target="#UDHR">Declaration</ref>, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty.</p>
+      </div>
+      <div type="article" n="3">
+        <head rend="bold">Article 3</head>
+        <p>Everyone has the right to life, liberty and security of person.</p>
+      </div>
+      <div type="article" n="4">
+        <head rend="bold">Article 4</head>
+        <p>No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.</p>
+      </div>
+      <div type="article" n="5">
+        <head rend="bold">Article 5</head>
+        <p>No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.</p>
+      </div>
+      <div type="article" n="6">
+        <head rend="bold">Article 6</head>
+        <p>Everyone has the right to recognition everywhere as a person before the law.</p>
+      </div>
+      <div type="article" n="7">
+        <head rend="bold">Article 7</head>
+        <p>All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this <ref type="docTitle" target="#UDHR">Declaration</ref> and against any incitement to such discrimination.</p>
+      </div>
+      <div type="article" n="8">
+        <head rend="bold">Article 8</head>
+        <p>Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law.</p>
+      </div>
+      <div type="article" n="9">
+        <head rend="bold">Article 9</head>
+        <p>No one shall be subjected to arbitrary arrest, detention or exile.</p>
+      </div>
+      <div type="article" n="10">
+        <head rend="bold">Article 10</head>
+        <p>Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.</p>
+      </div>
+      <div type="article" n="11">
+        <head rend="bold">Article 11</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence.</p>
+         </item>
+         <item n="2">
+          <p>No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="12">
+        <head rend="bold">Article 12</head>
+        <p>No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.</p>
+      </div>
+      <div type="article" n="13">
+        <head rend="bold">Article 13</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to freedom of movement and residence within the borders of each <orgName type="short" ref="#MS">state.</orgName></p>
+          </item>
+         <item n="2">
+          <p>Everyone has the right to leave any country, including his own, and to return to his country.</p>
+          </item>
+        </list>
+      </div>
+      <div type="article" n="14">
+        <head rend="bold">Article 14</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to seek and to enjoy in other countries asylum from persecution.</p>
+         </item>
+         <item n="2">
+          <p>This right may not be invoked in the case of prosecutions genuinely arising from non-political crimes or from acts contrary to the purposes and principles of the <orgName ref="#UN">The United Nations</orgName>.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="15">
+        <head rend="bold">Article 15</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to a nationality.</p>
+         </item>
+         <item n="2">
+          <p>No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="16">
+        <head rend="bold">Article 16</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution.</p>
+         </item>
+         <item n="2">
+          <p>Marriage shall be entered into only with the free and full consent of the intending spouses.</p>
+         </item>
+         <item n="3">
+          <p>The family is the natural and fundamental group unit of society and is entitled to protection by society and <orgName type="short" ref="#MS">the State</orgName>.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="17">
+        <head rend="bold">Article 17</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to own property alone as well as in association with others.</p>
+          </item>
+         <item n="2">
+          <p>No one shall be arbitrarily deprived of his property.</p>
+        </item>
+        </list>
+      </div>
+      <div type="article" n="18">
+        <head rend="bold">Article 18</head>
+        <p>Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance.</p>
+      </div>
+      <div type="article" n="19">
+        <head rend="bold">Article 19</head>
+        <p>Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.</p>
+      </div>
+      <div type="article" n="20">
+        <head rend="bold">Article 20</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to freedom of peaceful assembly and association.</p>
+         </item>
+         <item n="2">
+          <p>No one may be compelled to belong to an association.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="21">
+        <head rend="bold">Article 21</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to take part in the government of his country, directly or through freely chosen representatives.</p>
+         </item>
+         <item n="2">
+          <p>Everyone has the right of equal access to public service in his country.</p>
+         </item>
+         <item n="3">
+          <p>The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.</p>
+         </item>
+        </list>
+        </div>
+      <div type="article" n="22">
+        <head rend="bold">Article 22</head>
+        <p>Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co-operation and in accordance with the organization and resources of each <orgName type="short" ref="#MS">State</orgName>, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.</p>
+      </div>
+      <div type="article" n="23">
+        <head rend="bold">Article 23</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment.</p>
+         </item>
+         <item n="2">
+          <p>Everyone, without any discrimination, has the right to equal pay for equal work.</p>
+         </item>
+         <item n="3">
+          <p>Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection.</p>
+         </item>
+         <item n="4">
+          <p>Everyone has the right to form and to join trade unions for the protection of his interests.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="24">
+        <head rend="bold">Article 24</head>
+        <p>Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.</p>
+      </div>
+      <div type="article" n="25">
+        <head rend="bold">Article 25</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.</p>
+         </item>
+         <item n="2">
+          <p>Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="26">
+        <head rend="bold">Article 26</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.</p>
+         </item>
+         <item n="2">
+          <p>Education shall be directed to the full development of the human personality and to the strengthening of respect for human rights and fundamental freedoms. It shall promote understanding, tolerance and friendship among all nations, racial or religious groups, and shall further the activities of <orgName ref="#UN">The United Nations</orgName> for the maintenance of peace.</p>
+         </item>
+         <item n="3">
+          <p>Parents have a prior right to choose the kind of education that shall be given to their children.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="27">
+        <head rend="bold">Article 27</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.</p>
+         </item>
+         <item n="2">
+          <p>Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="28">
+        <head rend="bold">Article 28</head>
+        <p>Everyone is entitled to a social and international order in which the rights and freedoms set forth in this <ref type="docTitle" target="#UDHR">Declaration</ref> can be fully realized.</p>
+      </div>
+      <div type="article" n="29">
+        <head rend="bold">Article 29</head>
+        <list type="ordered" rend="number">
+         <item n="1">
+          <p>Everyone has duties to the community in which alone the free and full development of his personality is possible.</p>
+          </item>
+         <item n="2">
+          <p>In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society.</p>
+          </item>
+         <item n="3">
+          <p>These rights and freedoms may in no case be exercised contrary to the purposes and principles of <orgName ref="#UN">The United Nations</orgName>.</p>
+         </item>
+        </list>
+      </div>
+      <div type="article" n="30">
+       <head rend="bold">Article 30</head>
+        <p>Nothing in this <ref type="docTitle" target="#UDHR">Declaration</ref> may be interpreted as implying for any <orgName type="short" ref="#MS">State</orgName>, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.</p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

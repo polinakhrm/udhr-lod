@@ -1,0 +1,117 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix ns3: <http://example.org/resource/> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns3:Audio_UDHR dc:date "09.12.1948"^^xsd:string ;
+    dc:identifier "item006"^^xsd:string ;
+    dc:language "English"^^xsd:string ;
+    dc:publisher "UN Audiovisual Library"^^xsd:string ;
+    dc:title "Declaration of Human Rights by Eleanor Roosevelt"^^xsd:string ;
+    dc:type "Audio Recording"^^xsd:string ;
+    mo:format "MP3 Audio"^^xsd:string ;
+    mo:genre "Speech"^^xsd:string ;
+    mo:license "UN Media"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:url <https://media.un.org/avlibrary/en/asset/d109/d1093412> .
+
+ns3:Book_Roosevelt dc:creator "Mary Ann Glendon"^^xsd:string ;
+    dc:format "Book"^^xsd:string ;
+    dc:identifier "item004"^^xsd:string ;
+    dc:language "English"^^xsd:string ;
+    dc:publisher "New York : Random House"^^xsd:string ;
+    dc:title "A World Made New"^^xsd:string ;
+    dcterms:issued "2001"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:additionalType "Bibliographic Record"^^xsd:string ;
+    schema1:url <https://archive.org/details/worldmadenewelea001edglen> .
+
+ns3:Dashboard dc:format "Interactive Web Map (HTML + JavaScript)"^^xsd:string ;
+    dc:identifier "item008"^^xsd:string ;
+    dc:language "Multilingual"^^xsd:string ;
+    dc:rights "Public Domain"^^xsd:string ;
+    dc:title "Status of Retification Interactive Dashboard"^^xsd:string ;
+    dcterms:created "2024"^^xsd:string ;
+    dcterms:creator "Office of the United Nations High Commissioner for Human Rights (OHCHR)"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:additionalType "Map / Data Visualisation"^^xsd:string ;
+    schema1:url <https://indicators.ohchr.org> .
+
+ns3:Draft_outline ns3:crm%3AP129_is_about "item001"^^xsd:string ;
+    ns3:crm%3AP2_has_type "Archival Document"^^xsd:string ;
+    ns3:crm%3AP7_took_place_at "New York USA"^^xsd:string ;
+    dc:creator "UN Commission on Human Rights"^^xsd:string ;
+    dc:format "PDF"^^xsd:string ;
+    dc:identifier "item002"^^xsd:string ;
+    dc:language "English/French"^^xsd:string ;
+    dc:rights "UN Digital Library Terms"^^xsd:string ;
+    dc:title "Draft Outline of International Bill of Rights"^^xsd:string ;
+    dcterms:created "04/06/1947"^^xsd:string ;
+    schema1:url <https://digitallibrary.un.org/record/621094?v=pdf> .
+
+ns3:Palais_de_Chaillot ns3:rdf%3Atype "Building"^^xsd:string ;
+    dc:identifier "item009"^^xsd:string ;
+    dc:title "Palais de Chaillot"^^xsd:string ;
+    dcterms:creator "French Government"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:dateCreated "1937"^^xsd:string ;
+    schema1:url <https://viaf.org/en/viaf/173244574> .
+
+ns3:Photo_Roosevelt ns3:crm%3AP50_has_current_keeper "UN Photo"^^xsd:string ;
+    ns3:crm%3AP7_took_place_at "New York USA"^^xsd:string ;
+    dc:format "JPEG"^^xsd:string ;
+    dc:identifier "item003"^^xsd:string ;
+    dc:language "English"^^xsd:string ;
+    dc:rights "Public domain"^^xsd:string ;
+    dc:title "Eleanor Roosevelt with UDHR poster"^^xsd:string ;
+    dc:type "Photograph"^^xsd:string ;
+    dcterms:created "01.11.1949"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:depicts "Eleanor Roosevelt"^^xsd:string ;
+    schema1:url <https://www.flickr.com/photos/un_photo/37447271156> .
+
+ns3:Poster_UDHR ns3:crm%3AP94_has_created "01.11.1949"^^xsd:string ;
+    dc:creator "UN Photo"^^xsd:string ;
+    dc:identifier "item007"^^xsd:string ;
+    dc:language "English"^^xsd:string ;
+    dc:rights "UN Media"^^xsd:string ;
+    dc:title "Poster Depicting Universal Declaration of Human Rights -- English Version"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:artMedium "Poster"^^xsd:string ;
+    schema1:artform "Poster / Visual Art"^^xsd:string ;
+    schema1:url <https://media.un.org/photo/en/asset/oun7/oun7769877> .
+
+ns3:Sculpture_Rights ns3:crm%3AP7_took_place_at "Nuremberg Germany"^^xsd:string ;
+    dc:creator "Dani Karavan"^^xsd:string ;
+    dc:identifier "item010"^^xsd:string ;
+    dc:title "Way of Human Rights"^^xsd:string ;
+    dcterms:created "1993"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:additionalType "Sculpture"^^xsd:string ;
+    schema1:material "Oak tree; white concrete"^^xsd:string ;
+    schema1:url <https://viaf.org/en/viaf/239619775> .
+
+ns3:Stamp_Anniversary dc:creator "Cyprus Post; Republic of Cyprus"^^xsd:string ;
+    dc:format "Physical stamp"^^xsd:string ;
+    dc:identifier "item005"^^xsd:string ;
+    dc:language "Multilingual"^^xsd:string ;
+    dc:title "Declaration of Human Rights by Eleanor Roosevelt"^^xsd:string ;
+    dcterms:issued "09.10.1998"^^xsd:string ;
+    schema1:about "item001"^^xsd:string ;
+    schema1:additionalType "Artefact"^^xsd:string ;
+    edm:isShownAt <https://www.europeana.eu/it/item/2058601/object_CUT_18995888> ;
+    edm:rights "Digital Heritage Research Lab of Cyprus University of Technology"^^xsd:string .
+
+ns3:Universal%20Declaration%20of%20Human%20Rights dc:creator "United Nations General Assembly"^^xsd:string ;
+    dc:identifier "item001"^^xsd:string ;
+    dc:language "English"^^xsd:string ;
+    dc:title "Universal Declaration of Human Rights"^^xsd:string ;
+    dc:type "Full-text Document"^^xsd:string ;
+    schema1:datePublished "10.12.1948"^^xsd:string ;
+    schema1:encodingFormat "HTML / PDF"^^xsd:string ;
+    schema1:license "Public domain"^^xsd:string ;
+    schema1:url <https://www.un.org/en/about-us/universal-declaration-of-human-rights> .
+
