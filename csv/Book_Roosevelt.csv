@@ -1,0 +1,11 @@
+subject,predicate,object
+Book_Roosevelt,dc:identifier,item004
+Book_Roosevelt,dc:title,A World Made New
+Book_Roosevelt,schema:additionalType,Bibliographic Record
+Book_Roosevelt,dc:creator,Mary Ann Glendon
+Book_Roosevelt,dcterms:issued,2001
+Book_Roosevelt,dc:language,English
+Book_Roosevelt,dc:format,Book
+Book_Roosevelt,dc:publisher,New York : Random House
+Book_Roosevelt,schema:url,https://archive.org/details/worldmadenewelea001edglen
+Book_Roosevelt,schema:about,item001

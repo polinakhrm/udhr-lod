@@ -1,0 +1,11 @@
+subject,predicate,object
+Dashboard,dc:identifier,item008
+Dashboard,dc:title,Status of Retification Interactive Dashboard
+Dashboard,schema:additionalType,Map / Data Visualisation
+Dashboard,dcterms:creator,Office of the United Nations High Commissioner for Human Rights (OHCHR)
+Dashboard,dcterms:created,2024
+Dashboard,dc:language,Multilingual 
+Dashboard,dc:format,Interactive Web Map (HTML + JavaScript)
+Dashboard,dc:rights,Public Domain
+Dashboard,schema:url,https://indicators.ohchr.org
+Dashboard,schema:about,item001

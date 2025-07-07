@@ -1,0 +1,13 @@
+subject,predicate,object
+Photo_Roosevelt,dc:identifier,item003
+Photo_Roosevelt,dc:title,Eleanor Roosevelt with UDHR poster
+Photo_Roosevelt,dc:type,Photograph
+Photo_Roosevelt,crm:P50_has_current_keeper,UN Photo
+Photo_Roosevelt,dcterms:created,01.11.1949
+Photo_Roosevelt,dc:language,English
+Photo_Roosevelt,dc:format,JPEG
+Photo_Roosevelt,dc:rights,Public domain
+Photo_Roosevelt,schema:url,https://www.flickr.com/photos/un_photo/37447271156
+Photo_Roosevelt,schema:depicts,Eleanor Roosevelt
+Photo_Roosevelt,schema:about,item001
+Photo_Roosevelt,crm:P7_took_place_at,New York USA

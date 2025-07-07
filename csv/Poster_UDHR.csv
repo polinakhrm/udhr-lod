@@ -1,0 +1,11 @@
+subject,predicate,object
+Poster_UDHR,dc:identifier,item007
+Poster_UDHR,dc:title,Poster Depicting Universal Declaration of Human Rights -- English Version
+Poster_UDHR,schema:artform,Poster / Visual Art
+Poster_UDHR,dc:creator,UN Photo
+Poster_UDHR,crm:P94_has_created,01.11.1949
+Poster_UDHR,dc:language,English 
+Poster_UDHR,schema:artMedium,Poster
+Poster_UDHR,dc:rights,UN Media
+Poster_UDHR,schema:url,https://media.un.org/photo/en/asset/oun7/oun7769877
+Poster_UDHR,schema:about,item001

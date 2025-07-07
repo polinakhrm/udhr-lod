@@ -1,0 +1,8 @@
+subject,predicate,object
+Palais_de_Chaillot,dc:identifier,item009
+Palais_de_Chaillot,dc:title,Palais de Chaillot
+Palais_de_Chaillot,rdf:type,Building
+Palais_de_Chaillot,dcterms:creator,French Government
+Palais_de_Chaillot,schema:dateCreated,1937
+Palais_de_Chaillot,schema:url,https://viaf.org/en/viaf/173244574
+Palais_de_Chaillot,schema:about,item001

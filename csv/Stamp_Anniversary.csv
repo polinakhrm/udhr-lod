@@ -1,0 +1,11 @@
+subject,predicate,object
+Stamp_Anniversary,dc:identifier,item005
+Stamp_Anniversary,dc:title,Declaration of Human Rights by Eleanor Roosevelt
+Stamp_Anniversary,schema:additionalType,Artefact 
+Stamp_Anniversary,dc:creator,Cyprus Post; Republic of Cyprus
+Stamp_Anniversary,dcterms:issued,09.10.1998
+Stamp_Anniversary,dc:language,Multilingual
+Stamp_Anniversary,dc:format,Physical stamp
+Stamp_Anniversary,edm:rights,Digital Heritage Research Lab of Cyprus University of Technology
+Stamp_Anniversary,edm:isShownAt,https://www.europeana.eu/it/item/2058601/object_CUT_18995888
+Stamp_Anniversary,schema:about,item001

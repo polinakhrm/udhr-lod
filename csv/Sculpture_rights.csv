@@ -1,0 +1,10 @@
+subject,predicate,object
+Sculpture_Rights,dc:identifier,item010
+Sculpture_Rights,dc:title,Way of Human Rights
+Sculpture_Rights,schema:additionalType,Sculpture
+Sculpture_Rights,dc:creator,Dani Karavan
+Sculpture_Rights,dcterms:created,1993
+Sculpture_Rights,schema:material,Oak tree; white concrete
+Sculpture_Rights,crm:P7_took_place_at,Nuremberg Germany
+Sculpture_Rights,schema:about,item001
+Sculpture_Rights,schema:url,https://viaf.org/en/viaf/239619775

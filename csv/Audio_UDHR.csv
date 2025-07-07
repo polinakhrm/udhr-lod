@@ -1,0 +1,12 @@
+subject,predicate,object
+Audio_UDHR,dc:identifier,item006
+Audio_UDHR,dc:title,Declaration of Human Rights by Eleanor Roosevelt
+Audio_UDHR,dc:type,Audio Recording
+Audio_UDHR,dc:publisher,UN Audiovisual Library
+Audio_UDHR,dc:date,09.12.1948
+Audio_UDHR,dc:language,English
+Audio_UDHR,mo:format,MP3 Audio
+Audio_UDHR,mo:genre,Speech
+Audio_UDHR,mo:license,UN Media
+Audio_UDHR,schema:url,https://media.un.org/avlibrary/en/asset/d109/d1093412
+Audio_UDHR,schema:about,item001
