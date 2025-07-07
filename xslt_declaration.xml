@@ -6,11 +6,9 @@
 
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-  <!-- Ключи для поиска по xml:id -->
   <xsl:key name="orgById"  match="tei:org"  use="@xml:id"/>
   <xsl:key name="biblById" match="tei:bibl" use="@xml:id"/>
 
-  <!-- 1. Корневой шаблон -->
   <xsl:template match="/tei:TEI">
     <html>
       <head>
@@ -20,16 +18,14 @@
         </title>
       </head>
       <body>
-        <!-- Заголовок документа -->
+
         <h1 id="{tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/@xml:id}">
           <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
         </h1>
 
-        <!-- Сразу преамбула, без списка организаций -->
         <xsl:apply-templates select="tei:text/tei:front"/>
         <xsl:apply-templates select="tei:text/tei:body"/>
 
-        <!-- Справочные документы -->
         <xsl:apply-templates select="
           tei:teiHeader
           /tei:encodingDesc
@@ -39,7 +35,6 @@
     </html>
   </xsl:template>
 
-  <!-- Inline‐ссылки для <orgName ref="…"> внутри текста -->
   <xsl:template match="tei:orgName[@ref]">
     <xsl:variable name="oid" select="substring-after(@ref,'#')"/>
     <xsl:variable name="org" select="key('orgById',$oid)"/>
@@ -48,7 +43,6 @@
     </a>
   </xsl:template>
 
-  <!-- Справочные документы -->
   <xsl:template match="tei:listBibl">
     <section id="bibliography">
       <h2>Related Documents</h2>
@@ -66,14 +60,12 @@
     </li>
   </xsl:template>
 
-  <!-- Передний корпус (front) -->
   <xsl:template match="tei:front">
     <div class="front">
       <xsl:apply-templates select="*"/>
     </div>
   </xsl:template>
 
-  <!-- Преамбула -->
   <xsl:template match="tei:div[@type='preamble']">
     <section class="preamble">
       <h2><xsl:value-of select="tei:head"/></h2>
@@ -81,7 +73,6 @@
     </section>
   </xsl:template>
 
-  <!-- Статьи -->
   <xsl:template match="tei:div[@type='article']">
     <section class="article" id="{@n}">
       <h3><xsl:value-of select="tei:head"/></h3>
@@ -89,7 +80,6 @@
     </section>
   </xsl:template>
 
-  <!-- Параграфы и списки -->
   <xsl:template match="tei:p">
     <p><xsl:apply-templates/></p>
   </xsl:template>
@@ -103,7 +93,6 @@
     <li><xsl:apply-templates/></li>
   </xsl:template>
 
-  <!-- Внешние ссылки для <ref target="#…"> -->
   <xsl:template match="tei:ref[@target]">
     <xsl:variable name="bid" select="substring-after(@target,'#')"/>
     <xsl:variable name="b" select="key('biblById',$bid)"/>
@@ -112,7 +101,6 @@
     </a>
   </xsl:template>
 
-  <!-- По умолчанию: копируем текст и атрибуты -->
   <xsl:template match="text()|@*">
     <xsl:copy/>
   </xsl:template>
