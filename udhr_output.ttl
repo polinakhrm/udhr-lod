@@ -1,0 +1,173 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://polinakhrm.github.io/udhr-lod/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:5a46b4c58e1f2783e5cadea3c8cc8740 a dbo:Text,
+        foaf:Document ;
+    dc:creator dbr:United_Nations ;
+    dc:title "Universal Declaration of Human Rights"@en ;
+    dcterms:alternative "The Universal Declaration of Human Rights"@en ;
+    dcterms:contributor <https://www.wikidata.org/wiki/Q1065>,
+        <https://www.wikidata.org/wiki/Q160016>,
+        <https://www.wikidata.org/wiki/Q47423> ;
+    dcterms:date "1948-12-10"^^xsd:date ;
+    dcterms:publisher dbr:United_Nations ;
+    dcterms:spatial "Paris"@en ;
+    dcterms:subject ex:5bb49338e26dcae590fe1ba672066e9f,
+        ex:e22e18c28f2f17be3913ffedd973aafc ;
+    owl:sameAs <https://www.un.org/en/about-us/universal-declaration-of-human-rights> ;
+    ex:hasOrderedArticles [ a rdf:Seq ;
+            rdf:first ex:5f7b9b5e16ea15e8056adfe75cb365ff ;
+            rdf:rest ( ex:22c0b81b02a107eb106507d86f8551f7 ex:9226c1a38091c3fa7d0dc2e98c9bee7b ex:2cb73883f2ee478de34432265c5f49a3 ex:b8738c81eef68894d12d04af8b11a41a ex:f46be5acf9bc1547130ad1766d925da8 ex:e4443254972935ddc50732fa00227435 ex:f3471cf428c90350cffaaa8748283eee ex:cab54e50ce85bba0da23fc9f75feeaf5 ex:32518c765c583cd100cd7f9d0bb872cd ex:90b629003527ad42fdb005eb5083aa50 ex:5b1a9e6ff1aad593a051a9a06501eddb ex:36403d2b1e0fa4847a36cb4f2c6e78d6 ex:326a05834f238d391ee38443287e9a83 ex:3df790778bb195fd9ad8a8862f9b0daf ex:429bfd8cebc209ac227f28bcdaa91d84 ex:57b9712eaa5773e77a6c35dc4ea55f7d ex:8346872cca1d965628224b1dccbea03c ex:550f454335a39910e49370d26b931473 ex:d91aa0cd61d683cc41bb8d5656e130f7 ex:37f10413217847b60925f11828693a07 ex:5a30aeb43f8d11185263832f6a838186 ex:8eb42dc93ea2e202930deac4e0fa4426 ex:c30bc7d6ead3cb9c872457686a3d8785 ex:805a7dc67944cfa9ca39c6433cf33daa ex:318a2a2dcbdf4e03257a77bd72469cd1 ex:6677d324a03e449d12ed80d857e34e30 ex:4767084e89d3d406a90d18fed98fb609 ex:51f566a68eff5efc9bd3501f55aeaddb ex:1ecf447e7e79a58fadcd4a0fee6963f4 ex:5f7b9b5e16ea15e8056adfe75cb365ff ex:22c0b81b02a107eb106507d86f8551f7 ex:9226c1a38091c3fa7d0dc2e98c9bee7b ex:2cb73883f2ee478de34432265c5f49a3 ex:b8738c81eef68894d12d04af8b11a41a ex:f46be5acf9bc1547130ad1766d925da8 ex:e4443254972935ddc50732fa00227435 ex:f3471cf428c90350cffaaa8748283eee ex:cab54e50ce85bba0da23fc9f75feeaf5 ex:32518c765c583cd100cd7f9d0bb872cd ex:90b629003527ad42fdb005eb5083aa50 ex:5b1a9e6ff1aad593a051a9a06501eddb ex:36403d2b1e0fa4847a36cb4f2c6e78d6 ex:326a05834f238d391ee38443287e9a83 ex:3df790778bb195fd9ad8a8862f9b0daf ex:429bfd8cebc209ac227f28bcdaa91d84 ex:57b9712eaa5773e77a6c35dc4ea55f7d ex:8346872cca1d965628224b1dccbea03c ex:550f454335a39910e49370d26b931473 ex:d91aa0cd61d683cc41bb8d5656e130f7 ex:37f10413217847b60925f11828693a07 ex:5a30aeb43f8d11185263832f6a838186 ex:8eb42dc93ea2e202930deac4e0fa4426 ex:c30bc7d6ead3cb9c872457686a3d8785 ex:805a7dc67944cfa9ca39c6433cf33daa ex:318a2a2dcbdf4e03257a77bd72469cd1 ex:6677d324a03e449d12ed80d857e34e30 ex:4767084e89d3d406a90d18fed98fb609 ex:51f566a68eff5efc9bd3501f55aeaddb ex:1ecf447e7e79a58fadcd4a0fee6963f4 ) ] ;
+    ex:hasSection ex:538eced9e509fcd6af40ec419fe6a832 .
+
+ex:538eced9e509fcd6af40ec419fe6a832 a ex:Section ;
+    ex:sectionText "Preamble Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people, Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law, Whereas it is essential to promote the development of friendly relations between nations, Whereas the peoples of The United Nations have in the Charter reaffirmed their faith in fundamental human rights, in the dignity and worth of the human person and in the equal rights of men and women and have determined to promote social progress and better standards of life in larger freedom, Whereas Member States have pledged themselves to achieve, in co-operation with The United Nations , the promotion of universal respect for and observance of human rights and fundamental freedoms, Whereas a common understanding of these rights and freedoms is of the greatest importance for the full realization of this pledge, Now, therefore, The General Assembly , Proclaims this Universal Declaration of Human Rights as a common standard of achievement for all peoples and all nations, to the end that every individual and every organ of society, keeping this Declaration constantly in mind, shall strive by teaching and education to promote respect for these rights and freedoms and by progressive measures, national and international, to secure their universal and effective recognition and observance, both among the peoples of Member States themselves and among the peoples of territories under their jurisdiction."@en .
+
+ex:5bb49338e26dcae590fe1ba672066e9f a skos:Concept ;
+    owl:sameAs <https://www.un.org/en/about-us/universal-declaration-of-human-rights> ;
+    skos:prefLabel "Universal Declaration of Human Rights"@en .
+
+ex:e22e18c28f2f17be3913ffedd973aafc a skos:Concept ;
+    owl:sameAs <https://www.un.org/en/about-us/un-charter> ;
+    skos:prefLabel "Charter of the United Nations"@en .
+
+<https://www.wikidata.org/wiki/Q1065> a dbo:Organization,
+        foaf:Organization ;
+    foaf:name "United Nations"@en .
+
+<https://www.wikidata.org/wiki/Q160016> a dbo:Organization,
+        foaf:Organization ;
+    foaf:name "Member States"@en .
+
+<https://www.wikidata.org/wiki/Q47423> a dbo:Organization,
+        foaf:Organization ;
+    foaf:name "The General Assembly"@en .
+
+ex:1ecf447e7e79a58fadcd4a0fee6963f4 a ex:Article ;
+    ex:articleNumber 30 ;
+    ex:articleText "Article 30 Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein."@en .
+
+ex:22c0b81b02a107eb106507d86f8551f7 a ex:Article ;
+    ex:articleNumber 2 ;
+    ex:articleText "Article 2 Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty."@en .
+
+ex:2cb73883f2ee478de34432265c5f49a3 a ex:Article ;
+    ex:articleNumber 4 ;
+    ex:articleText "Article 4 No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms."@en .
+
+ex:318a2a2dcbdf4e03257a77bd72469cd1 a ex:Article ;
+    ex:articleNumber 26 ;
+    ex:articleText "Article 26 Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit. Education shall be directed to the full development of the human personality and to the strengthening of respect for human rights and fundamental freedoms. It shall promote understanding, tolerance and friendship among all nations, racial or religious groups, and shall further the activities of The United Nations for the maintenance of peace. Parents have a prior right to choose the kind of education that shall be given to their children."@en .
+
+ex:32518c765c583cd100cd7f9d0bb872cd a ex:Article ;
+    ex:articleNumber 10 ;
+    ex:articleText "Article 10 Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him."@en .
+
+ex:326a05834f238d391ee38443287e9a83 a ex:Article ;
+    ex:articleNumber 14 ;
+    ex:articleText "Article 14 Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non-political crimes or from acts contrary to the purposes and principles of the The United Nations."@en .
+
+ex:36403d2b1e0fa4847a36cb4f2c6e78d6 a ex:Article ;
+    ex:articleNumber 13 ;
+    ex:articleText "Article 13 Everyone has the right to freedom of movement and residence within the borders of each state. Everyone has the right to leave any country, including his own, and to return to his country."@en .
+
+ex:37f10413217847b60925f11828693a07 a ex:Article ;
+    ex:articleNumber 21 ;
+    ex:articleText "Article 21 Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures."@en .
+
+ex:3df790778bb195fd9ad8a8862f9b0daf a ex:Article ;
+    ex:articleNumber 15 ;
+    ex:articleText "Article 15 Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality."@en .
+
+ex:429bfd8cebc209ac227f28bcdaa91d84 a ex:Article ;
+    ex:articleNumber 16 ;
+    ex:articleText "Article 16 Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State."@en .
+
+ex:4767084e89d3d406a90d18fed98fb609 a ex:Article ;
+    ex:articleNumber 28 ;
+    ex:articleText "Article 28 Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized."@en .
+
+ex:51f566a68eff5efc9bd3501f55aeaddb a ex:Article ;
+    ex:articleNumber 29 ;
+    ex:articleText "Article 29 Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of The United Nations."@en .
+
+ex:550f454335a39910e49370d26b931473 a ex:Article ;
+    ex:articleNumber 19 ;
+    ex:articleText "Article 19 Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers."@en .
+
+ex:57b9712eaa5773e77a6c35dc4ea55f7d a ex:Article ;
+    ex:articleNumber 17 ;
+    ex:articleText "Article 17 Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property."@en .
+
+ex:5a30aeb43f8d11185263832f6a838186 a ex:Article ;
+    ex:articleNumber 22 ;
+    ex:articleText "Article 22 Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co-operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality."@en .
+
+ex:5b1a9e6ff1aad593a051a9a06501eddb a ex:Article ;
+    ex:articleNumber 12 ;
+    ex:articleText "Article 12 No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks."@en .
+
+ex:5f7b9b5e16ea15e8056adfe75cb365ff a ex:Article ;
+    ex:articleNumber 1 ;
+    ex:articleText "Article 1 All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood."@en .
+
+ex:6677d324a03e449d12ed80d857e34e30 a ex:Article ;
+    ex:articleNumber 27 ;
+    ex:articleText "Article 27 Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author."@en .
+
+ex:805a7dc67944cfa9ca39c6433cf33daa a ex:Article ;
+    ex:articleNumber 25 ;
+    ex:articleText "Article 25 Everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection."@en .
+
+ex:8346872cca1d965628224b1dccbea03c a ex:Article ;
+    ex:articleNumber 18 ;
+    ex:articleText "Article 18 Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance."@en .
+
+ex:8eb42dc93ea2e202930deac4e0fa4426 a ex:Article ;
+    ex:articleNumber 23 ;
+    ex:articleText "Article 23 Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests."@en .
+
+ex:90b629003527ad42fdb005eb5083aa50 a ex:Article ;
+    ex:articleNumber 11 ;
+    ex:articleText "Article 11 Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed."@en .
+
+ex:9226c1a38091c3fa7d0dc2e98c9bee7b a ex:Article ;
+    ex:articleNumber 3 ;
+    ex:articleText "Article 3 Everyone has the right to life, liberty and security of person."@en .
+
+ex:b8738c81eef68894d12d04af8b11a41a a ex:Article ;
+    ex:articleNumber 5 ;
+    ex:articleText "Article 5 No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment."@en .
+
+ex:c30bc7d6ead3cb9c872457686a3d8785 a ex:Article ;
+    ex:articleNumber 24 ;
+    ex:articleText "Article 24 Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay."@en .
+
+ex:cab54e50ce85bba0da23fc9f75feeaf5 a ex:Article ;
+    ex:articleNumber 9 ;
+    ex:articleText "Article 9 No one shall be subjected to arbitrary arrest, detention or exile."@en .
+
+ex:d91aa0cd61d683cc41bb8d5656e130f7 a ex:Article ;
+    ex:articleNumber 20 ;
+    ex:articleText "Article 20 Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association."@en .
+
+ex:e4443254972935ddc50732fa00227435 a ex:Article ;
+    ex:articleNumber 7 ;
+    ex:articleText "Article 7 All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination."@en .
+
+ex:f3471cf428c90350cffaaa8748283eee a ex:Article ;
+    ex:articleNumber 8 ;
+    ex:articleText "Article 8 Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law."@en .
+
+ex:f46be5acf9bc1547130ad1766d925da8 a ex:Article ;
+    ex:articleNumber 6 ;
+    ex:articleText "Article 6 Everyone has the right to recognition everywhere as a person before the law."@en .
+
